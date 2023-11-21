@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header button {
+    width: max-content;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E8EFF2;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
