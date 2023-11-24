@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    overflow-x: hidden;
+    width: 375px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -21,4 +26,72 @@ header button {
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
+    position: relative;
+    margin-right: 1em;
+}
+
+.title {
+    width: 327px;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.bio {
+    width: 327px;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.preorder-middle {
+    width: max-content;
+    border: none;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F16718;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.release {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.keyboard {
+    width: 100%;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-top: 1em;
+    position: relative;
+    left: 6px;
+}
+
+.left-img,.right-img {
+    border-radius: 10px;
 }
