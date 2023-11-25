@@ -89,9 +89,117 @@ header button {
     flex-shrink: 0;
     margin-top: 1em;
     position: relative;
-    left: 6px;
+    left: 5px;
+}
+
+.grid-primary,.grid-secondary {
+    display: grid;
+}
+
+.grid-primary {
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-areas: 
+        'one two'
+        'three four';
+    margin-top: 30px;
 }
 
 .left-img,.right-img {
     border-radius: 10px;
+    position: relative;
+}
+
+.left-img {
+    width: 120px;
+    height: 222px;
+    right: 2em;
+    grid-area: one;
+}
+
+.right-img {
+    width: 250px;
+    left: -14em;
+    grid-area: two;
+}
+
+.section-title-div {
+    text-align: center;
+}
+
+.section-title {
+    width: 255px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+    position: relative;
+    left: 20px;
+    grid-template: three;
+}
+
+.section-txt {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    grid-template: four;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card svg {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+}
+
+.card h3 {
+    width: 327px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.card p {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.copy {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+.copy span {
+    font-weight: 500;
 }
