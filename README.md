@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/DarkPhoenixNinja92/typemaster-landing-react)
+- Live Site URL: [GitHub Pages Live Site](https://darkphoenixninja92.github.io/typemaster-landing-react/)
 
 ### Built with
 
