@@ -16,7 +16,7 @@ const Advert = () => {
         </section>
         <img src="src/assets/mobile/image-keyboard.jpg" alt="" className="keyboard" />
         <img src="src/assets/tablet/image-keyboard.jpg" alt="" className="keyboard-tablet" />
-        
+        <img src="src/assets/desktop/image-keyboard.jpg" alt="" className="keyboard-desktop" />
         </section>
     )
 }

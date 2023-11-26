@@ -92,7 +92,7 @@ header button {
     left: 5px;
 }
 
-.keyboard-tablet {
+.keyboard-tablet,.keyboard-desktop {
     display: none;
 }
 
@@ -113,7 +113,7 @@ header button {
     position: relative;
 }
 
-.left-img-tablet,.right-img-tablet {
+.left-img-tablet,.right-img-tablet,.left-img-desktop,.right-img-desktop {
     display: none;
 }
 
@@ -356,4 +356,89 @@ header button {
      padding-bottom: 2.5em;
 }
 
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        margin-left: 60px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .order-btn {
+        left: 59em;
+    }
+
+    .order-btn:hover {
+        background: #162542;
+        color: #FFF;
+    }
+
+    .keyboard-desktop, .left-img-desktop,.right-img-desktop {
+        display: initial;
+            border-radius: 10px;
+        }
+
+    .left-img-tablet,.right-img-tablet,.keyboard-tablet {
+        display: none;
+    }
+
+    .keyboard-desktop {
+        width: 100%;
+        flex-shrink: 0;
+        position: relative;
+        left: 37em;
+    }
+
+    .section-title-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-title {
+        left: 45px;
+    }
+
+    .section-title,.section-txt {
+        text-align: left;
+    }
+
+    .preorder-middle:hover {
+        background: #FF9B62;
+    }
+
+    .left-img-desktop {
+        width: 255px;
+    }
+
+    .right-img-desktop {
+        width: 443px;
+    }
+
+    .grid-primary {
+        grid-template-areas: 
+        'one two three';
+        grid-gap: 4em;
+    }
+
+    .grid-secondary {
+        grid-template-areas: 
+        'compatible wireless battery rgb';
+        grid-gap: 25px;
+        margin-left: 0;
+    }
+    
+    .copy {
+        left: 30em;
+    }
 }

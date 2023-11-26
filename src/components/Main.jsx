@@ -4,8 +4,10 @@ const Main = () => {
             <div className="grid-primary">
             <img src="src/assets/mobile/image-phone-and-keyboard.jpg" alt="phone and keyboard" className="left-img" />
             <img src="src/assets/tablet/image-phone-and-keyboard.jpg" alt="phone and keyboard" className="left-img-tablet" />
+            <img src="src/assets/desktop/image-phone-and-keyboard.jpg" alt="phone and keyboard" className="left-img-desktop" />
             <img src="src/assets/mobile/image-glass-and-keyboard.jpg" alt="glass and keyboard" className="right-img" />
             <img src="src/assets/tablet/image-glass-and-keyboard.jpg" alt="glass and keyboard" className="right-img-tablet" />
+            <img src="src/assets/desktop/image-glass-and-keyboard.jpg" alt="glass and keyboard" className="right-img-desktop" />
             <div className="section-title-div">
                 <h2 className="section-title">Mechanical wireless keyboard</h2>
                 <p className="section-txt">The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
