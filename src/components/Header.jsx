@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <header className="flex items-center justify-center">
+        <header>
         <img src="src/assets/shared/logo.svg" alt="logo" className="logo" />
         <button className="order-btn">Pre-order now</button>
         </header>

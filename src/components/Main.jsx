@@ -1,6 +1,6 @@
 const Main = () => {
     return (
-        <div className="main flex min-h-screen flex-col items-center justify-center">
+        <div className="main">
             <div className="grid-primary">
             <img src="src/assets/mobile/image-phone-and-keyboard.jpg" alt="phone and keyboard" className="left-img" />
             <img src="src/assets/tablet/image-phone-and-keyboard.jpg" alt="phone and keyboard" className="left-img-tablet" />
@@ -14,7 +14,7 @@ const Main = () => {
   of switches and keycaps, along with reliable wireless connectivity.</p>
             </div>
             </div>
-            <div className="grid-secondary grid">
+            <div className="grid-secondary">
                 <article className="compatible card">
                 <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
   <rect width="65" height="65" rx="16" fill="#F16718"/>
