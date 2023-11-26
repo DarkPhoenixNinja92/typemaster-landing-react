@@ -92,6 +92,10 @@ header button {
     left: 5px;
 }
 
+.keyboard-tablet {
+    display: none;
+}
+
 .grid-primary,.grid-secondary {
     display: grid;
 }
@@ -107,6 +111,10 @@ header button {
 .left-img,.right-img {
     border-radius: 10px;
     position: relative;
+}
+
+.left-img-tablet,.right-img-tablet {
+    display: none;
 }
 
 .left-img {
@@ -202,4 +210,150 @@ header button {
 
 .copy span {
     font-weight: 500;
+}
+
+@media (min-width: 768px) {
+
+    .order-btn {
+        position: relative;
+        left: 95%;
+    }
+
+    header {
+        margin-bottom: 2.5em;
+    }
+    
+    .keyboard {
+        display: none;
+    }
+
+    .keyboard-tablet {
+        display: initial;
+        width: 360px;
+        height: 526px;
+        border-radius: 10px;
+        flex-shrink: 0;
+        margin-left: 73px;
+    }
+
+    .upper-title {
+        width: 339px;
+        color: #162542;
+        font-family: Barlow;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    .upper-txt {
+        width: 339px;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .left-img,.right-img {
+        display: none;
+    }
+
+    .left-img-tablet,.right-img-tablet {
+        display: initial;
+        border-radius: 10px;
+    }
+
+    .advert,.advert-outer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .advert {
+        flex-direction: column;
+    }
+
+    .advert-outer {
+        justify-content: space-between;
+    }
+
+    .preorder-middle {
+        margin-right: 30px;
+    }
+
+    .grid-primary {
+        grid-template-areas: 
+        'one two'
+        'three';
+    }
+
+    .left-img-tablet {
+        width: 30%;
+        grid-area: one;
+    }
+
+    .right-img-tablet {
+        width: 459px;
+        grid-area: two;
+        position: relative;
+        right: 30em;
+    }
+
+    .section-title-div {
+        grid-area: three;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-title {
+        margin-right: 5em;
+    }
+
+    .section-title,.section-txt {
+        text-align: left;
+    }
+
+    .grid-secondary {
+    grid-template-areas: 
+        'compatible wireless'
+        'battery rgb';
+        grid-gap: 55px;
+        margin-left: 1.5em;
+        margin-top: 4em;
+}
+
+.card h3, .card p {
+    text-align: left;
+}
+
+.card svg {
+    position: relative;
+    right: 8em;
+}
+
+.compatible {
+    grid-area: compatible;
+}
+
+.wireless {
+    grid-area: wireless;
+}
+
+.battery {
+    grid-area: battery;
+}
+
+.backlit {
+    grid-area: rgb;
+}
+
+.copy {
+    position: relative;
+    left: 10em;
+    top: 3em;
+     padding-bottom: 2.5em;
+}
+
 }
